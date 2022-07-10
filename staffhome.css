@@ -1,0 +1,157 @@
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: 'Poppins, sans-serif';
+
+  }
+ nav{
+     width:100%;
+     top:0;
+     left:0;
+     padding:10px 2%;
+     display:flex;
+     align-items:center;
+     justify-content: space-between;
+     background-color:rgb(33, 31, 31);
+     border-radius:2px;
+     margin:2px;
+
+ 
+ }
+ nav .logo{
+     width: 60px;
+     height:60px;
+     border-radius:50%;
+
+ }
+ nav ul li{
+     list-style:none;
+     display:inline-block;
+     margin-left:40px;
+ }
+ nav ul li a{
+     text-decoration: none;
+     color:white;
+     font-size: 17px;
+ }
+  nav ul li a:hover{
+      color: rgb(188, 236, 198);
+      border-radius:2px solid #fff ;
+      color:black;
+     border-radius: 6px;
+      padding:4px;
+      background-color:rgb(188, 236, 198);;
+  }
+ 
+
+.profile{
+  border-radius:15px;
+  width:22%;
+  background-color:rgb(118, 116, 116);
+  padding:4px;
+  margin-top:20px;
+  margin-left:30px;
+  margin-bottom:16px;
+  text-align:center;
+  color:white;
+  height: auto;
+  float:left;
+
+}
+.profile-img{
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius:55%;
+  clear:both;
+  margin-top:20px;
+
+}
+.profile-desc{
+  width: 100%;
+  overflow: hidden;
+  height: 130px;
+  text-align: justify;
+  margin:2px;
+  margin-bottom: 10px;
+}
+.paragraph{
+  width:60%;
+  margin:20px;
+  margin-left:20%;
+  background-color:rgb(118, 116, 116);
+  border-radius: 10px;
+  color:white;
+
+}
+p{
+  font-size:22px;
+  padding:10px;
+  text-align: justify;
+}
+hr{
+  width:93%;
+  height:5px;
+  margin:10px;
+  background-color:white;
+  text-align:  center;
+  border-radius: 5px;
+ 
+}
+.footer{
+  background:rgb(27, 14, 14);
+  align-items: center;
+  clear:both;
+  height:210px;
+  margin-top:10px;
+  text-align: center;
+  color:white;
+}
+.footer-left{
+  width:50%;
+  height:190px;
+  float:left;
+  margin-top:8px;
+  padding-top: 100px;
+  margin-left:4px;
+  align-items:center;
+  color: rgb(246, 241, 241);
+}
+.footer-right{
+  float:right;
+  width:45%;
+  height:auto;
+  margin-top:4px;
+  align-items:center;}
+.footer-img{
+   height:20px;
+   width:20px;
+   margin:4px;
+   border-radius:10px;
+   color:white;
+  }
+.input1{
+   height:30px;
+   margin:4px;
+   background-color:rgb(230, 226, 226);
+  width:50%;
+}
+.input2{
+  height:50px;
+  background-color:rgb(238, 228, 228);
+  width:50%;
+}
+.submit{
+  height:30px;
+  width:60px;
+  margin:8px;
+}
+.staff-home{
+   height:200px;
+   width:100%;
+   background-color:gray;
+   align-items: center;
+   text-align:center;
+}
