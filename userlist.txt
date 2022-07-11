@@ -1,0 +1,22 @@
+  <?php
+  $connection= mysqli_connect("localhost","root","");
+         $db = mysqli_select_db($connection,"users");
+         $sql="SELECT * FROM info";
+         $result=mysqli_query($connection,$sql);
+         while($row=mysqli_fetch_array($result)){
+         ?>
+
+           <tr>
+           <td data-label="Farmer Name" name= "Farmer Name"> <?php echo $row["id"]; ?> </td>
+           <td data-label="Family Count" name= "Family Count" ><?php echo $row["username"]; ?></td>
+           <td data-label="Market Rate" name="Market Rate"><?php echo $row["name"]; ?></td>
+           <td data-label="Farmer Rate" name= "Farmer Rate"><?php echo $row["phonenumber"]; ?></td>
+           <td data-label="Farmer Rate" name= "Farmer Rate"><?php echo $row["phonenumber"]; ?></td>
+           <td data-label="Farmer Rate" name= "Farmer Rate"><?php echo $row["address"]; ?></td>
+           <td data-label="Farmer Rate" name= "Farmer Rate"><?php echo $row["userpwd"]; ?></td>
+           
+         
+          </tr>
+
+          <?php
+         } ?>
